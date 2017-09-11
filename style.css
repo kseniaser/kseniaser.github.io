@@ -1,0 +1,66 @@
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	text-align: center;
+	background-color: #DAF7A6;
+}
+
+.VisualizationMainPage #header {
+	background:#088A08;
+    color:#F1C40F;
+    text-align: center;
+    margin: 0;
+    padding: 8px 0;
+}
+
+.VisualizationMainPage #vertexSection {
+    position:absolute;
+    top: 100px;
+    left: 600px;
+}
+
+.VisualizationMainPage #edgesSection {
+    position:absolute;
+    top: 100px;
+    left: 800px;
+}
+
+.VisualizationMainPage #slider {
+    position:absolute;
+    top: 100px;
+    left: 1000px;
+    color: #088A08;
+}
+
+.VisualizationMainPage #actions {
+    position:absolute;
+    top: 500px;
+    left: 100px;
+    color: #088A08;
+}
+
+.VisualizationMainPage #randomGraph {
+    position:absolute;
+    top: 175px;
+    left: 1000px;
+    color: #088A08;
+}
+
+.VisualizationMainPage #name1 {
+    position:absolute;
+    left: 98px;
+    top: 533px;
+    font-size: 13px;
+    color: #088A08;
+}
+
+.VisualizationMainPage #name2 {
+    position:absolute;
+    left: 70px;
+    top: 562px;
+    line-height: 0.1;
+    font-size: 13px;
+    color: #088A08;
+}
+
+

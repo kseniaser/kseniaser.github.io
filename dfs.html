@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+
+    <title>
+        Depth-First Search Visualization
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="init();" class="VisualizationMainPage">
+
+<div id="header">
+    <h1>DFS Visualization</h1>
+</div>
+
+<div id="vertexSection">
+    <p>Vertices</p>
+    <p>
+        <input style="height:25px;width:130px" type="button" id="add_vertices" value="add vertex">
+    </p>
+    <p>
+        <button style="height:25px;width:130px" id="delete_vertex">delete last vertex</button>
+    </p>
+    <p>
+        <button style="height:25px;width:130px" id="clear_vertices">delete all vertices</button>
+    </p>
+</div>
+
+<div id="edgesSection">
+    <p>Edges</p>
+        <p>
+            <input style="height:25px;width:130px" type="button" id="add_edges" value="add edge">
+        </p>
+        <p>
+            <button style="height:25px;width:130px" id="delete_edge">delete last edge</button>
+        </p>
+        <p>
+            <button style="height:25px;width:130px" id="clear_edges">delete all edges</button>
+        </p>
+    </div>
+
+<div id="slider">
+    <p>Animation speed</p>
+    <input type="range" min='-1' max='4' step='0' value="1" id="speed_factor">
+</div>
+
+<div id="randomGraph">
+    <p>
+        <button style="height:25px;width:130px" id="random">random graph</button>
+    </p>
+</div>
+
+<canvas id="myCanvas"  width="1500" height="500">
+</canvas>
+
+<div id="actions">
+    <input type="button" id="stop" value="Reset">
+    <input type="button" id="start" value="Start">
+    <input type="button" id="pause" value="Stop" disabled>
+</div>
+
+<div id="name1">
+    <p>Vertex</p>
+</div>
+
+<div id="name2">
+    <p>Connected </p>
+    <p>component</p>
+</div>
+
+<script src="src/animation.js"></script>
+<script src="src/controlButtons.js"></script>
+
+</body>
+
+</html>
